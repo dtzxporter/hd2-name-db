@@ -1,0 +1,22 @@
+name: Rust
+
+on:
+  push:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Generate database
+      run: cd generator && cargo run
+    - name: Upload release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: assets.pndb
