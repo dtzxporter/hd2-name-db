@@ -16,8 +16,14 @@ jobs:
     - uses: actions/checkout@v3
     - name: Generate database
       run: cd generator && cargo run
+    - name: Increment version
+      uses: reecetech/version-increment@2023.9.3
+        id: version
+        with:
+          scheme: semver
+          increment: patch
     - name: Upload release
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: ${{ github.sha }}
+        tag_name: ${{ steps.version.outputs.version }}
         files: assets.pndb
