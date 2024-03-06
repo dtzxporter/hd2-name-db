@@ -1,0 +1,3 @@
+# I am a comment line. Either hex format works, prefixed or non prefixed.
+0xdeadbeef,a\dead\beef
+deadc0de,a\dead\code
