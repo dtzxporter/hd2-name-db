@@ -1,6 +1,6 @@
 # I am a comment line. Either hex format works, prefixed or non prefixed.
-0xdeadbeef,a\dead\beef
-deadc0de,a\dead\code
+# 0xdeadbeef,a\dead\beef
+# deadc0de,a\dead\code
 0x13906be034be0007,content/planet_desert_savanna/assets/terrain_materials/textures_packed/savanna_rock_albedo
 0xc33ffd88c5090030,content/env_shared_arctic/assets/terrain_materials/textures_packed/snowy_forest_marshlands_nms
 0xe8b5d3c076f0031,content/planet_desert_savanna/assets/terrain_materials/textures_packed/savanna_sand_albedo
