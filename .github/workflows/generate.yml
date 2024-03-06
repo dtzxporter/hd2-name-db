@@ -28,5 +28,6 @@ jobs:
     - name: Upload release
       uses: softprops/action-gh-release@v1
       with:
+        name: 'Name Database Release ${{ steps.version.outputs.version }}'
         tag_name: ${{ steps.version.outputs.version }}
         files: assets.pndb
