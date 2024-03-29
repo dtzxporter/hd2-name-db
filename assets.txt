@@ -1,7 +1,10 @@
 # I am a comment line. Either hex format works, prefixed or non prefixed.
 # 0xdeadbeef,a\dead\beef
 # deadc0de,a\dead\code
-##Defaults
+
+#################################################################################
+# Default assets
+#################################################################################
 0x51a0812e3bce2d74,content/fac_helldivers/hellpod/mortar_turret/mortar_turret
 0x37079568dc86e9c6,content/fac_helldivers/hellpod/rocket_turret/rocket_turret
 0x74599e56f72f9d7e,content/fac_helldivers/hellpod/tesla_turret/tesla_turret
