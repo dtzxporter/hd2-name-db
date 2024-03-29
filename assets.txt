@@ -1,6 +1,33 @@
 # I am a comment line. Either hex format works, prefixed or non prefixed.
 # 0xdeadbeef,a\dead\beef
 # deadc0de,a\dead\code
+
+#################################################################################
+# Default assets
+#################################################################################
+0x51a0812e3bce2d74,content/fac_helldivers/hellpod/mortar_turret/mortar_turret
+0x37079568dc86e9c6,content/fac_helldivers/hellpod/rocket_turret/rocket_turret
+0x74599e56f72f9d7e,content/fac_helldivers/hellpod/tesla_turret/tesla_turret
+0xed13ddc480ec6910,content/fac_helldivers/hellpod/energy_shield/energy_shield
+0x12c8d71ac3897a5c,content/fac_helldivers/equipment/backpacks/energy_shield_backpack/energy_shield_backpack
+0x59c5ca839449b379,content/fac_helldivers/equipment/backpacks/jumppack_backpack/jumppack_backpack
+0x8ec3026b5f2e579a,content/fac_helldivers/equipment/backpacks/faf_missile_launcher_backpack/faf_missile_launcher_backpack
+0x96dfc6542aa22980,content/fac_helldivers/equipment/backpacks/recoilless_rifle_backpack/recoilless_rifle_backpack
+0xe60ae045e0090f4c,content/fac_helldivers/equipment/backpacks/automatic_cannon_backpack/automatic_cannon_backpack
+0xa55e504092b981d,content/fac_helldivers/equipment/backpacks/medic_backpack/medic_backpack
+0x6b11fc757618c57e,content/fac_helldivers/equipment/throwables/he_grenade/he_grenade
+0x4ce9eab785a79b7b,content/fac_helldivers/equipment/throwables/frag_grenade/frag_grenade
+0x4653ab33f3ffb44,content/fac_helldivers/equipment/throwables/incendiary_grenade/incendiary_grenade
+0x5de8fd02a05b4b0a,content/fac_helldivers/equipment/throwables/smoke_grenade/smoke_grenade
+0x7686544f539bb9b7,content/fac_helldivers/equipment/throwables/impact_grenade/impact_grenade
+0x1ff81c46cc79fd34,content/fac_helldivers/equipment/throwables/emp_grenade/emp_grenade
+0x2df1cfb9ed77e06c,content/fac_helldivers/equipment/primary_weapons/marksman_rifle/marksman_rifle
+0x5d8d8c073b9d502,content/fac_helldivers/equipment/primary_weapons/pump_shotgun_plasma/pump_shotgun_plasma
+0x53eebe75cd6e26df,content/fac_helldivers/equipment/primary_weapons/pump_shotgun_slug/pump_shotgun_slug
+0x76dd5d4f4360204,content/fac_helldivers/equipment/primary_weapons/arc_shotgun/arc_shotgun
+0x7b06196e90154c88,content/fac_helldivers/equipment/sidearm_weapons/laser_pistol/laser_pistol
+0x3575aabc5f1f9326,content/fac_helldivers/equipment/sidearm_weapons/automatic_pistol/automatic_pistol
+0x8d3d52a3b2f19402,content/fac_helldivers/equipment/sidearm_weapons/revolver_pistol/revolver_pistol
 0x13906be034be0007,content/planet_desert_savanna/assets/terrain_materials/textures_packed/savanna_rock_albedo
 0xc33ffd88c5090030,content/env_shared_arctic/assets/terrain_materials/textures_packed/snowy_forest_marshlands_nms
 0xe8b5d3c076f0031,content/planet_desert_savanna/assets/terrain_materials/textures_packed/savanna_sand_albedo
