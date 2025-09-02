@@ -1,10 +1,15 @@
 use std::collections::HashMap;
+use std::io;
 use std::io::Write;
+use std::path::Path;
 
-fn main() {
-    let mut name_database: HashMap<u64, String> = HashMap::new();
+fn read_text<P: AsRef<Path>>(
+    path: P,
+    name_database: &mut HashMap<u64, String>,
+) -> Result<(), io::Error> {
+    let mut count = 0;
 
-    for line in std::fs::read_to_string("../assets.txt").unwrap().lines() {
+    for line in std::fs::read_to_string(path.as_ref()).unwrap().lines() {
         let mut line = line.trim();
 
         if line.starts_with('#') || line.is_empty() {
@@ -21,8 +26,20 @@ fn main() {
             let hash = u64::from_str_radix(hash.trim(), 16).unwrap();
 
             name_database.insert(hash, name.trim().to_string());
+            count += 1;
         }
     }
+
+    println!("Loaded {} names from {:?}", count, path.as_ref());
+
+    Ok(())
+}
+
+fn main() {
+    let mut name_database: HashMap<u64, String> = HashMap::new();
+
+    read_text("../verified_assets.txt", &mut name_database).unwrap();
+    read_text("../verified_wems.txt", &mut name_database).unwrap();
 
     let mut output = std::fs::File::create("../assets.pndb").unwrap();
 
